@@ -1,0 +1,93 @@
+{
+  "colors": {
+    "periospot_blue": "#15365a",
+    "mystic_blue": "#003049",
+    "periospot_red": "#6c1410",
+    "crimson_blaze": "#a92a2a",
+    "vanilla_cream": "#f7f0da",
+    "black": "#000000",
+    "white": "#ffffff",
+    "classic_periospot_blue": "#0031af",
+    "periospot_light_blue": "#0297ed",
+    "periospot_dark_blue": "#02011e",
+    "periospot_yellow": "#ffc430",
+    "periospot_bright_blue": "#1040dd"
+  },
+  "fonts": {
+    "family": "Bariol",
+    "files": {
+      "thin": "Bariol_Thin.otf",
+      "thin_italic": "Bariol_Thin_Italic.otf",
+      "light": "Bariol_Light.otf",
+      "light_italic": "Bariol_Light_Italic.otf",
+      "regular": "Bariol_Regular.otf",
+      "bold": "Bariol_Bold.otf",
+      "bold_italic": "Bariol_Bold_Italic.otf"
+    }
+  },
+  "typography": {
+    "h1": {
+      "font_weight": "bold",
+      "size": 24,
+      "color": "periospot_blue",
+      "description": "Main titles, chapter headings"
+    },
+    "h2": {
+      "font_weight": "bold",
+      "size": 18,
+      "color": "periospot_blue",
+      "description": "Section headings"
+    },
+    "h3": {
+      "font_weight": "regular",
+      "size": 14,
+      "color": "mystic_blue",
+      "description": "Subsection headings"
+    },
+    "body": {
+      "font_weight": "regular",
+      "size": 11,
+      "color": "black",
+      "description": "Body text, paragraphs"
+    },
+    "caption": {
+      "font_weight": "light",
+      "size": 9,
+      "color": "mystic_blue",
+      "description": "Figure captions, footnotes"
+    },
+    "label": {
+      "font_weight": "regular",
+      "size": 10,
+      "color": "mystic_blue",
+      "description": "Axis labels, legend text"
+    }
+  },
+  "matplotlib": {
+    "chart_title": {
+      "size": 16,
+      "weight": "bold",
+      "color": "periospot_blue"
+    },
+    "axis_title": {
+      "size": 12,
+      "weight": "regular",
+      "color": "mystic_blue"
+    },
+    "tick_labels": {
+      "size": 10,
+      "weight": "light",
+      "color": "mystic_blue"
+    },
+    "legend": {
+      "size": 10,
+      "weight": "regular",
+      "color": "black"
+    },
+    "annotation": {
+      "size": 9,
+      "weight": "light",
+      "color": "mystic_blue"
+    }
+  }
+}
