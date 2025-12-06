@@ -138,11 +138,32 @@ The aim is to turn **curiosity into small, concrete experiments**, not to chase 
 
 ## Visual Style Guidelines
 
-When creating plots or visualizations, use the **Periospot brand colors**:
+When creating plots or visualizations, use the **Periospot style module**:
 
 ```python
-# Periospot Brand Colors
-COLORS = {
+# Recommended: Use the style module (handles fonts and colors)
+from utils.periospot_style import setup_periospot_style, PERIOSPOT_COLORS
+
+# Apply at the start of every notebook
+setup_periospot_style()
+
+# Access colors when needed
+color = PERIOSPOT_COLORS['periospot_blue']
+```
+
+### Custom Font Support
+
+Place your custom OTF/TTF font in `assets/fonts/` and it will be loaded automatically.
+Or specify a path directly:
+
+```python
+setup_periospot_style(font_path='assets/fonts/YourCustomFont.otf')
+```
+
+### Periospot Brand Colors
+
+```python
+PERIOSPOT_COLORS = {
     'periospot_blue': '#15365a',
     'mystic_blue': '#003049',
     'periospot_red': '#6c1410',
@@ -151,13 +172,6 @@ COLORS = {
     'black': '#000000',
     'white': '#ffffff'
 }
-
-# Matplotlib settings
-plt.rcParams['font.family'] = 'DejaVu Sans'
-plt.rcParams['axes.titlesize'] = 16
-plt.rcParams['axes.labelsize'] = 12
-plt.rcParams['xtick.labelsize'] = 10
-plt.rcParams['ytick.labelsize'] = 10
 ```
 
 ---
