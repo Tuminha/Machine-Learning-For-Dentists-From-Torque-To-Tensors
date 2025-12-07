@@ -263,6 +263,76 @@ Where η (eta) is the **learning rate** — how big a step you take. Too big, an
 
 ---
 
+## Codelab Results: What the Data Reveals
+
+### The Target Variable: Marginal Bone Loss
+
+Our synthetic dataset contains 500 implant cases. The target variable — marginal bone loss at 1 year — follows a roughly normal distribution centered around 0.92 mm:
+
+<div align="center">
+<img src="figures/01_mbl_distribution.png" alt="Distribution of Marginal Bone Loss" width="100%" />
+</div>
+
+**Key observations:**
+- Mean MBL: 0.92 mm (within the clinically acceptable range)
+- Most cases fall between 0.5 and 1.5 mm
+- A few outliers show higher bone loss (>1.8 mm) — these are the cases we want to predict!
+
+### Feature Correlations
+
+Before modeling, we check how our features relate to each other and to the target:
+
+<div align="center">
+<img src="figures/02_correlation_matrix.png" alt="Feature Correlation Matrix" width="80%" />
+</div>
+
+**What the correlations reveal:**
+
+| Feature | Correlation with MBL | Interpretation |
+|---------|---------------------|----------------|
+| `insertion_torque_ncm` | +0.47 ↑ | Higher torque → More bone loss |
+| `hounsfield_units` | -0.33 ↓ | Denser bone → Less bone loss |
+| `isq_placement` | -0.29 ↓ | Better stability → Less bone loss |
+| `age` | +0.26 ↑ | Older patients → More bone loss |
+
+These correlations align with clinical intuition — and give us confidence the model will find meaningful patterns.
+
+### Feature Importance: What the Model Learned
+
+After training, we can visualize how much each feature contributes to the prediction:
+
+<div align="center">
+<img src="figures/03_feature_weights.png" alt="Feature Importance" width="90%" />
+</div>
+
+**Interpreting the weights (standardized):**
+
+- **Insertion torque** (+0.152): The strongest positive predictor. Higher torque → more predicted bone loss.
+- **Hounsfield units** (-0.127): Denser bone protects against bone loss.
+- **ISQ** (-0.087): Better primary stability → less bone loss.
+- **Age** (+0.063): Older patients have slightly more predicted bone loss.
+
+**Clinical insight:** The model suggests that over-torquing implants (even within "safe" ranges) may contribute more to bone loss than patient age. This is a hypothesis worth investigating with real data!
+
+### Model Performance: Predicted vs. Actual
+
+How well does the model actually predict? We evaluate on held-out test data:
+
+<div align="center">
+<img src="figures/04_predicted_vs_actual.png" alt="Predicted vs Actual MBL" width="100%" />
+</div>
+
+**Performance metrics:**
+- **R² = 0.41** — The model explains ~41% of variance in bone loss
+- **RMSE ≈ 0.23 mm** — Average prediction error
+
+**What this means clinically:**
+- The model captures meaningful signal — predictions correlate with reality
+- But ~59% of variance remains unexplained (unmeasured factors, random variation)
+- Average error of ±0.23 mm is useful for counseling, not precise diagnosis
+
+---
+
 ## Clinical Reflection
 
 ### What Can This Model Tell Us?
