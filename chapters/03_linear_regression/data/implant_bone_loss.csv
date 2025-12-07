@@ -1,0 +1,501 @@
+patient_id,age,sex,smoking_status,diabetes,hba1c,hounsfield_units,bone_type,insertion_torque_ncm,isq_placement,implant_length_mm,implant_diameter_mm,marginal_bone_loss_mm
+P0001,60,Female,Current,False,5.1,298,D4 (Very soft),24,67.0,13.0,4.5,1.05
+P0002,53,Female,Never,False,5.6,155,D4 (Very soft),27,68.0,10.0,4.0,1.01
+P0003,62,Male,Former,False,4.9,502,D2 (Normal),20,68.0,13.0,4.5,0.73
+P0004,73,Female,Never,False,5.5,215,D4 (Very soft),29,66.0,10.0,4.0,1.33
+P0005,52,Female,Never,True,8.0,464,D3 (Soft),44,77.0,10.0,4.0,1.25
+P0006,52,Male,Former,False,5.4,410,D3 (Soft),40,67.0,13.0,3.5,1.25
+P0007,73,Male,Never,True,7.5,551,D2 (Normal),44,59.0,10.0,3.5,1.38
+P0008,64,Male,Former,True,7.2,404,D3 (Soft),40,64.0,11.5,5.0,0.86
+P0009,49,Male,Former,False,5.3,400,D3 (Soft),23,69.0,13.0,4.0,0.67
+P0010,61,Male,Never,True,7.5,559,D2 (Normal),31,77.0,8.0,4.5,0.94
+P0011,49,Male,Never,False,4.7,500,D3 (Soft),27,72.0,8.0,5.0,0.55
+P0012,49,Male,Never,False,5.6,497,D3 (Soft),48,61.0,11.5,4.0,1.14
+P0013,57,Male,Former,False,5.0,520,D2 (Normal),23,85.0,10.0,4.0,0.39
+P0014,32,Female,Current,True,7.4,219,D4 (Very soft),43,70.0,10.0,4.5,1.16
+P0015,34,Male,Former,True,7.4,563,D2 (Normal),43,78.0,8.0,5.0,0.77
+P0016,48,Female,Never,False,5.6,541,D2 (Normal),53,66.0,8.0,5.0,1.06
+P0017,42,Male,Former,False,4.9,297,D4 (Very soft),30,72.0,11.5,4.0,0.67
+P0018,58,Female,Never,False,5.5,413,D3 (Soft),42,74.0,8.0,4.5,0.82
+P0019,44,Male,Former,False,5.6,444,D3 (Soft),57,77.0,10.0,3.5,0.84
+P0020,38,Male,Never,False,5.0,429,D3 (Soft),28,76.0,11.5,5.0,0.81
+P0021,72,Female,Former,False,5.5,500,D3 (Soft),19,74.0,10.0,5.0,0.56
+P0022,52,Female,Never,False,5.2,664,D2 (Normal),16,65.0,8.0,3.5,0.73
+P0023,55,Female,Current,False,5.5,612,D2 (Normal),42,63.0,11.5,4.0,1.57
+P0024,37,Male,Never,True,6.7,253,D4 (Very soft),16,70.0,8.0,3.5,0.64
+P0025,48,Male,Former,False,5.2,543,D2 (Normal),31,75.0,11.5,4.0,0.39
+P0026,56,Female,Current,True,7.3,649,D2 (Normal),39,66.0,13.0,4.5,0.66
+P0027,41,Female,Never,False,5.6,508,D2 (Normal),36,76.0,10.0,4.0,0.23
+P0028,59,Female,Current,True,7.6,613,D2 (Normal),39,79.0,11.5,3.5,0.87
+P0029,47,Female,Former,True,7.7,751,D1 (Dense),37,60.0,10.0,4.0,1.34
+P0030,51,Male,Never,False,,603,D2 (Normal),47,61.0,10.0,5.0,0.95
+P0031,47,Female,Never,False,5.1,487,D3 (Soft),25,66.0,13.0,4.5,0.7
+P0032,77,Male,Former,True,7.0,606,D2 (Normal),28,70.0,13.0,4.0,0.3
+P0033,54,Male,Never,False,5.6,471,D3 (Soft),27,63.0,10.0,3.5,0.42
+P0034,42,Male,Former,False,,453,D3 (Soft),43,78.0,11.5,5.0,1.05
+P0035,64,Female,Never,False,5.3,397,D3 (Soft),44,71.0,13.0,4.5,1.06
+P0036,40,Male,Former,False,5.4,684,D2 (Normal),39,68.0,13.0,4.0,0.66
+P0037,57,Male,Never,False,5.0,327,D3 (Soft),46,56.0,11.5,3.5,1.36
+P0038,31,Female,Current,False,5.6,679,D2 (Normal),23,57.0,10.0,3.5,1.21
+P0039,39,Male,Current,False,5.6,524,D2 (Normal),51,70.0,10.0,3.5,1.17
+P0040,57,Female,Current,False,5.3,240,D4 (Very soft),50,50.0,13.0,4.0,1.79
+P0041,63,Male,Former,True,6.8,505,D2 (Normal),42,76.0,8.0,5.0,1.05
+P0042,57,Female,Never,False,5.5,150,D4 (Very soft),52,66.0,11.5,4.0,1.93
+P0043,53,Female,Former,True,7.5,543,D2 (Normal),18,85.0,10.0,4.5,0.1
+P0044,51,Male,Never,False,5.4,582,D2 (Normal),29,85.0,10.0,4.0,0.55
+P0045,37,Male,Never,False,5.6,361,D3 (Soft),27,66.0,10.0,4.5,0.66
+P0046,46,Male,Never,False,5.3,468,D3 (Soft),42,67.0,13.0,4.5,1.0
+P0047,49,Male,Never,False,5.3,743,D1 (Dense),24,75.0,8.0,3.5,0.12
+P0048,67,Female,Former,False,5.2,374,D3 (Soft),42,81.0,11.5,4.0,0.96
+P0049,59,Male,Former,False,5.6,291,D4 (Very soft),48,54.0,8.0,4.5,1.59
+P0050,33,Female,Never,False,5.3,672,D2 (Normal),41,53.0,10.0,3.5,1.56
+P0051,58,Male,Never,False,5.2,744,D1 (Dense),37,63.0,10.0,4.0,0.87
+P0052,50,Female,Current,False,5.6,450,D3 (Soft),25,72.0,11.5,4.0,0.71
+P0053,46,Female,Never,False,5.6,601,D2 (Normal),26,71.0,10.0,5.0,0.36
+P0054,62,Female,Never,False,5.2,651,D2 (Normal),47,76.0,10.0,4.0,0.64
+P0055,67,Female,Never,True,7.5,338,D3 (Soft),42,58.0,8.0,4.5,0.83
+P0056,66,Male,Former,False,5.6,377,D3 (Soft),34,49.0,10.0,4.0,1.14
+P0057,44,Male,Former,False,5.2,634,D2 (Normal),30,74.0,13.0,4.5,0.73
+P0058,51,Female,Never,True,6.9,702,D1 (Dense),15,,13.0,4.0,0.14
+P0059,58,Female,Never,False,4.8,534,D2 (Normal),24,51.0,10.0,4.5,1.05
+P0060,66,Female,Former,False,5.6,318,D3 (Soft),54,69.0,11.5,4.0,1.46
+P0061,49,Male,Former,True,7.8,748,D1 (Dense),22,74.0,13.0,4.5,0.43
+P0062,52,Female,Never,False,5.6,370,D3 (Soft),36,67.0,8.0,4.5,0.84
+P0063,41,Female,Current,False,5.4,399,D3 (Soft),45,64.0,13.0,4.0,1.72
+P0064,40,Male,Never,False,5.1,501,D2 (Normal),22,66.0,13.0,3.5,0.7
+P0065,64,Male,Never,False,5.3,683,D2 (Normal),36,65.0,8.0,3.5,0.71
+P0066,71,Female,Current,False,5.6,578,D2 (Normal),44,57.0,10.0,3.5,1.34
+P0067,54,Female,Never,False,5.4,512,D2 (Normal),35,62.0,13.0,4.5,0.84
+P0068,67,Female,Former,False,5.6,519,D2 (Normal),60,72.0,11.5,4.0,1.1
+P0069,59,Male,Never,False,5.6,456,D3 (Soft),18,70.0,8.0,4.0,0.1
+P0070,47,Female,Never,True,8.1,533,D2 (Normal),45,69.0,10.0,4.5,1.59
+P0071,59,Male,Current,True,6.5,150,D4 (Very soft),33,60.0,10.0,4.0,1.61
+P0072,73,Male,Never,False,5.4,405,D3 (Soft),42,66.0,11.5,4.0,1.15
+P0073,54,Male,Current,False,5.1,486,D3 (Soft),39,50.0,11.5,3.5,1.38
+P0074,73,Female,Never,False,5.0,277,D4 (Very soft),27,69.0,13.0,5.0,0.71
+P0075,25,Female,Never,False,5.3,507,D2 (Normal),37,79.0,10.0,4.5,0.46
+P0076,64,Female,Never,False,5.6,419,D3 (Soft),16,56.0,11.5,4.5,0.33
+P0077,56,Male,Former,False,5.4,713,D1 (Dense),41,63.0,11.5,4.0,1.41
+P0078,51,Female,Never,True,7.7,685,D2 (Normal),37,70.0,10.0,4.5,0.54
+P0079,56,Male,Current,False,5.0,380,D3 (Soft),41,78.0,10.0,3.5,0.92
+P0080,31,Female,Never,False,5.4,427,D3 (Soft),45,64.0,13.0,3.5,0.79
+P0081,52,Male,Current,False,5.0,438,D3 (Soft),38,62.0,13.0,3.5,1.58
+P0082,59,Male,Never,False,5.5,382,D3 (Soft),36,52.0,10.0,4.0,1.09
+P0083,72,Female,Current,True,7.1,479,D3 (Soft),26,68.0,11.5,4.0,0.87
+P0084,48,Male,Former,False,5.3,336,D3 (Soft),27,84.0,10.0,4.0,0.96
+P0085,45,Female,Former,False,4.6,280,D4 (Very soft),46,70.0,11.5,3.5,1.31
+P0086,48,Female,Former,False,5.5,543,D2 (Normal),49,67.0,11.5,4.0,1.15
+P0087,65,Male,Former,False,5.5,544,D2 (Normal),32,70.0,11.5,4.5,0.98
+P0088,58,Female,Former,False,,329,D3 (Soft),35,67.0,13.0,4.0,1.62
+P0089,48,Male,Never,False,5.6,584,D2 (Normal),25,61.0,11.5,4.5,1.14
+P0090,61,Female,Never,False,5.1,355,D3 (Soft),46,74.0,10.0,4.0,0.83
+P0091,56,Female,Current,False,5.6,487,D3 (Soft),41,69.0,11.5,4.5,1.61
+P0092,66,Female,Former,False,5.6,573,D2 (Normal),54,68.0,10.0,4.0,1.24
+P0093,46,Male,Former,False,4.9,444,D3 (Soft),26,60.0,10.0,4.0,0.95
+P0094,51,Female,Never,False,5.5,518,D2 (Normal),31,78.0,10.0,4.0,0.12
+P0095,50,Female,Never,False,5.2,372,D3 (Soft),37,73.0,10.0,4.5,0.76
+P0096,37,Male,Never,False,5.4,420,D3 (Soft),41,63.0,11.5,4.5,0.68
+P0097,58,Male,Former,True,7.2,419,D3 (Soft),32,76.0,10.0,4.0,1.11
+P0098,58,Female,Never,True,8.6,338,D3 (Soft),26,64.0,11.5,4.0,1.34
+P0099,55,Female,Never,True,6.7,423,D3 (Soft),43,61.0,11.5,4.5,0.61
+P0100,52,Female,Never,False,5.4,217,D4 (Very soft),42,61.0,10.0,4.5,1.15
+P0101,38,Female,Never,False,5.1,376,D3 (Soft),25,53.0,13.0,4.0,1.08
+P0102,49,Female,Former,False,5.1,407,D3 (Soft),48,71.0,10.0,4.0,1.02
+P0103,50,Male,Never,False,5.6,411,D3 (Soft),46,53.0,10.0,4.0,1.33
+P0104,45,Male,Former,True,7.2,413,D3 (Soft),36,58.0,11.5,4.5,1.2
+P0105,53,Male,Never,False,5.6,440,D3 (Soft),35,51.0,10.0,4.0,1.09
+P0106,59,Female,Never,False,5.5,521,D2 (Normal),40,67.0,8.0,5.0,0.78
+P0107,77,Male,Never,False,4.9,581,D2 (Normal),26,66.0,11.5,4.0,0.39
+P0108,57,Female,Never,False,5.2,352,D3 (Soft),35,65.0,11.5,4.0,0.64
+P0109,58,Female,Never,False,5.6,269,D4 (Very soft),15,59.0,10.0,4.0,0.95
+P0110,54,Female,Never,False,5.1,293,D4 (Very soft),43,58.0,13.0,5.0,1.17
+P0111,31,Male,Former,False,5.3,376,D3 (Soft),19,71.0,11.5,4.5,0.53
+P0112,54,Female,Never,False,5.5,397,D3 (Soft),50,63.0,13.0,4.0,1.02
+P0113,55,Male,Former,False,5.6,334,D3 (Soft),31,70.0,8.0,4.5,0.83
+P0114,84,Female,Current,True,6.6,255,D4 (Very soft),32,60.0,11.5,4.0,1.86
+P0115,52,Male,Former,True,7.5,381,D3 (Soft),28,69.0,13.0,4.0,0.84
+P0116,58,Male,Never,True,8.3,477,D3 (Soft),32,78.0,11.5,3.5,0.54
+P0117,54,Female,Never,False,5.6,539,D2 (Normal),49,72.0,11.5,4.0,1.07
+P0118,40,Male,Never,False,5.6,366,D3 (Soft),15,64.0,10.0,4.0,0.49
+P0119,68,Male,Never,False,5.4,388,D3 (Soft),47,70.0,8.0,5.0,1.08
+P0120,64,Female,Current,False,5.2,310,D3 (Soft),38,66.0,10.0,4.0,1.78
+P0121,64,Female,Never,False,5.2,445,D3 (Soft),22,68.0,10.0,5.0,0.65
+P0122,44,Female,Never,True,6.6,322,D3 (Soft),24,65.0,13.0,4.0,0.89
+P0123,71,Female,Former,False,5.5,535,D2 (Normal),51,66.0,10.0,4.5,0.88
+P0124,38,Female,Former,True,6.6,182,D4 (Very soft),25,69.0,13.0,4.0,0.91
+P0125,62,Male,Former,False,5.6,396,D3 (Soft),23,60.0,13.0,3.5,1.05
+P0126,81,Male,Never,False,4.9,495,D3 (Soft),46,59.0,10.0,4.0,0.78
+P0127,43,Male,Never,False,5.6,477,D3 (Soft),38,56.0,10.0,3.5,0.96
+P0128,48,Female,Never,True,,850,D1 (Dense),25,55.0,13.0,4.5,0.58
+P0129,56,Female,Never,False,5.3,502,D2 (Normal),37,58.0,13.0,4.0,0.92
+P0130,48,Male,Never,False,5.5,299,D4 (Very soft),24,69.0,10.0,4.5,0.97
+P0131,36,Female,Never,False,5.6,435,D3 (Soft),46,60.0,10.0,4.0,1.06
+P0132,55,Female,Never,False,5.6,183,D4 (Very soft),45,72.0,11.5,3.5,1.49
+P0133,42,Male,Never,False,5.6,437,D3 (Soft),40,68.0,11.5,4.0,0.57
+P0134,60,Female,Never,False,5.3,325,D3 (Soft),38,52.0,10.0,5.0,1.2
+P0135,43,Female,Former,False,5.6,587,D2 (Normal),52,73.0,11.5,4.5,0.95
+P0136,73,Female,Former,False,5.6,367,D3 (Soft),34,74.0,8.0,4.0,0.7
+P0137,45,Male,Former,False,5.3,432,D3 (Soft),23,60.0,8.0,4.0,1.02
+P0138,51,Female,Never,False,5.6,354,D3 (Soft),39,71.0,10.0,3.5,1.46
+P0139,64,Female,Never,False,5.5,710,D1 (Dense),55,61.0,10.0,5.0,1.02
+P0140,40,Female,Never,False,5.5,401,D3 (Soft),24,68.0,10.0,4.5,0.73
+P0141,57,Female,Former,False,5.6,724,D1 (Dense),31,57.0,10.0,4.0,0.78
+P0142,70,Female,Former,False,5.5,572,D2 (Normal),39,53.0,10.0,4.0,0.94
+P0143,35,Female,Never,True,5.7,522,D2 (Normal),34,64.0,10.0,3.5,0.32
+P0144,57,Male,Current,False,5.2,505,D2 (Normal),25,67.0,10.0,5.0,0.8
+P0145,58,Female,Never,False,5.2,509,D2 (Normal),46,64.0,13.0,3.5,0.63
+P0146,64,Female,Never,False,5.1,160,D4 (Very soft),58,58.0,10.0,4.5,1.97
+P0147,40,Male,Former,False,5.5,408,D3 (Soft),36,64.0,10.0,4.0,0.89
+P0148,39,Female,Current,False,5.6,576,D2 (Normal),25,70.0,11.5,4.5,0.71
+P0149,61,Female,Former,False,5.5,442,D3 (Soft),19,67.0,13.0,4.5,0.93
+P0150,58,Female,Former,False,5.6,239,D4 (Very soft),37,69.0,10.0,4.5,0.82
+P0151,58,Female,Never,False,5.4,442,D3 (Soft),46,62.0,11.5,4.5,0.87
+P0152,59,Male,Former,False,5.6,705,D1 (Dense),39,77.0,11.5,4.5,0.69
+P0153,46,Female,Never,False,5.1,637,D2 (Normal),34,58.0,11.5,3.5,0.97
+P0154,57,Female,Current,False,5.3,440,D3 (Soft),29,71.0,8.0,4.0,1.17
+P0155,58,Male,Never,False,5.6,592,D2 (Normal),24,,11.5,4.0,0.49
+P0156,46,Female,Former,False,5.6,395,D3 (Soft),43,71.0,8.0,5.0,1.0
+P0157,77,Female,Never,False,5.3,194,D4 (Very soft),44,66.0,11.5,4.0,1.37
+P0158,60,Female,Former,True,7.4,311,D3 (Soft),19,63.0,11.5,4.5,1.01
+P0159,40,Female,Never,False,4.9,684,D2 (Normal),50,76.0,10.0,4.5,0.41
+P0160,62,Male,Former,False,5.3,408,D3 (Soft),40,56.0,13.0,4.0,1.2
+P0161,43,Male,Never,False,5.6,413,D3 (Soft),48,60.0,8.0,4.0,0.79
+P0162,64,Male,Never,False,5.6,405,D3 (Soft),21,64.0,13.0,4.0,0.74
+P0163,68,Female,Never,False,5.6,735,D1 (Dense),21,,10.0,4.0,0.2
+P0164,45,Male,Never,False,5.4,693,D2 (Normal),33,71.0,10.0,4.0,1.12
+P0165,66,Male,Current,False,5.4,782,D1 (Dense),40,60.0,8.0,3.5,1.1
+P0166,59,Male,Never,False,,426,D3 (Soft),52,65.0,13.0,4.5,0.78
+P0167,64,Female,Current,False,5.6,494,D3 (Soft),42,63.0,8.0,5.0,1.29
+P0168,77,Female,Never,False,5.5,222,D4 (Very soft),32,62.0,10.0,4.0,1.25
+P0169,52,Male,Never,False,5.5,671,D2 (Normal),24,75.0,10.0,4.0,0.78
+P0170,45,Male,Former,True,7.3,274,D4 (Very soft),47,57.0,11.5,3.5,1.26
+P0171,44,Female,Former,False,4.8,482,D3 (Soft),25,80.0,11.5,4.5,0.13
+P0172,45,Female,Never,False,5.6,285,D4 (Very soft),51,74.0,8.0,4.5,1.25
+P0173,54,Male,Former,True,8.2,361,D3 (Soft),32,76.0,10.0,3.5,0.73
+P0174,59,Female,Former,False,5.1,324,D3 (Soft),50,64.0,10.0,3.5,1.18
+P0175,58,Male,Never,False,5.6,358,D3 (Soft),41,66.0,10.0,4.5,0.94
+P0176,64,Male,Current,False,5.3,369,D3 (Soft),33,56.0,10.0,4.5,1.36
+P0177,55,Female,Current,True,6.7,367,D3 (Soft),29,63.0,11.5,3.5,1.46
+P0178,72,Male,Former,False,5.6,575,D2 (Normal),31,,10.0,4.5,0.62
+P0179,51,Female,Never,False,5.6,284,D4 (Very soft),39,78.0,10.0,4.0,0.78
+P0180,85,Male,Former,False,5.0,483,D3 (Soft),35,59.0,10.0,4.0,1.13
+P0181,62,Female,Never,True,,632,D2 (Normal),29,65.0,13.0,4.5,0.92
+P0182,44,Female,Never,False,5.5,373,D3 (Soft),33,66.0,13.0,4.5,0.83
+P0183,42,Male,Never,False,5.3,342,D3 (Soft),35,56.0,13.0,4.0,1.07
+P0184,60,Female,Never,False,5.4,415,D3 (Soft),15,72.0,10.0,5.0,0.72
+P0185,52,Male,Current,False,4.9,626,D2 (Normal),39,62.0,8.0,4.0,1.22
+P0186,63,Female,Former,False,5.5,479,D3 (Soft),25,66.0,10.0,4.5,0.9
+P0187,60,Male,Former,True,,370,D3 (Soft),23,64.0,10.0,4.0,0.56
+P0188,54,Male,Never,False,5.0,522,D2 (Normal),18,61.0,11.5,4.5,0.58
+P0189,44,Male,Never,False,4.9,284,D4 (Very soft),17,67.0,11.5,5.0,0.74
+P0190,36,Female,Never,False,5.6,552,D2 (Normal),21,66.0,13.0,3.5,0.62
+P0191,49,Female,Current,True,8.2,511,D2 (Normal),27,65.0,13.0,5.0,1.06
+P0192,65,Female,Never,False,5.6,403,D3 (Soft),54,62.0,10.0,4.5,1.08
+P0193,57,Male,Current,False,5.2,324,D3 (Soft),29,70.0,11.5,4.5,1.0
+P0194,40,Female,Former,False,4.9,316,D3 (Soft),36,81.0,10.0,4.0,0.93
+P0195,57,Male,Never,True,6.3,530,D2 (Normal),39,69.0,8.0,4.5,1.15
+P0196,59,Female,Former,True,6.9,634,D2 (Normal),36,75.0,11.5,4.5,0.7
+P0197,44,Male,Never,True,6.3,354,D3 (Soft),34,56.0,8.0,4.0,1.28
+P0198,56,Male,Current,False,5.2,518,D2 (Normal),23,69.0,10.0,5.0,0.94
+P0199,55,Male,Current,False,5.4,150,D4 (Very soft),49,59.0,10.0,3.5,1.68
+P0200,41,Female,Never,False,5.6,362,D3 (Soft),53,56.0,11.5,3.5,1.16
+P0201,59,Female,Never,True,8.2,445,D3 (Soft),18,62.0,11.5,4.0,1.08
+P0202,61,Male,Former,False,5.6,313,D3 (Soft),24,77.0,10.0,4.0,0.85
+P0203,67,Female,Current,True,6.8,309,D3 (Soft),32,75.0,13.0,4.5,1.86
+P0204,67,Female,Never,False,5.0,349,D3 (Soft),25,69.0,10.0,3.5,0.57
+P0205,38,Female,Former,False,5.3,493,D3 (Soft),40,55.0,10.0,5.0,1.14
+P0206,43,Male,Former,False,5.5,421,D3 (Soft),27,66.0,11.5,3.5,0.63
+P0207,61,Male,Former,True,8.0,150,D4 (Very soft),56,70.0,11.5,3.5,1.49
+P0208,61,Female,Never,True,8.5,150,D4 (Very soft),46,69.0,13.0,3.5,1.47
+P0209,61,Male,Former,False,5.5,358,D3 (Soft),37,53.0,10.0,4.0,1.25
+P0210,85,Male,Current,False,5.4,518,D2 (Normal),45,60.0,11.5,5.0,2.22
+P0211,61,Female,Never,False,5.4,150,D4 (Very soft),46,67.0,11.5,4.5,1.2
+P0212,68,Female,Never,False,5.2,375,D3 (Soft),29,72.0,13.0,4.5,0.5
+P0213,66,Male,Current,True,6.6,371,D3 (Soft),26,50.0,10.0,3.5,1.52
+P0214,62,Male,Never,False,5.1,658,D2 (Normal),35,66.0,11.5,4.0,0.17
+P0215,51,Female,Current,False,5.6,392,D3 (Soft),43,69.0,11.5,4.0,1.26
+P0216,64,Male,Never,True,7.2,507,D2 (Normal),36,74.0,10.0,4.0,0.85
+P0217,45,Male,Never,False,4.8,471,D3 (Soft),19,73.0,10.0,3.5,0.63
+P0218,52,Male,Current,False,5.1,150,D4 (Very soft),26,72.0,10.0,4.5,1.44
+P0219,49,Female,Never,False,5.0,565,D2 (Normal),34,61.0,11.5,4.0,0.62
+P0220,55,Female,Never,False,5.2,482,D3 (Soft),34,52.0,13.0,4.5,0.91
+P0221,82,Male,Never,False,5.4,526,D2 (Normal),54,64.0,11.5,4.0,1.02
+P0222,32,Male,Former,False,5.0,850,D1 (Dense),21,76.0,11.5,3.5,0.1
+P0223,63,Male,Never,False,5.1,150,D4 (Very soft),40,79.0,11.5,4.5,1.1
+P0224,35,Female,Never,True,8.5,708,D1 (Dense),49,73.0,8.0,3.5,0.58
+P0225,49,Male,Current,False,5.5,406,D3 (Soft),57,71.0,10.0,4.5,1.35
+P0226,68,Male,Never,False,5.4,493,D3 (Soft),30,71.0,10.0,4.5,0.47
+P0227,55,Female,Former,False,5.2,443,D3 (Soft),39,63.0,10.0,3.5,1.16
+P0228,42,Male,Never,False,5.5,386,D3 (Soft),40,66.0,10.0,5.0,1.34
+P0229,46,Female,Former,False,5.2,364,D3 (Soft),36,81.0,11.5,4.0,0.46
+P0230,63,Male,Never,False,5.3,499,D3 (Soft),34,60.0,10.0,3.5,0.42
+P0231,46,Male,Current,False,5.6,222,D4 (Very soft),39,80.0,10.0,4.5,1.17
+P0232,57,Male,Never,True,7.6,562,D2 (Normal),15,65.0,10.0,4.0,0.71
+P0233,55,Female,Never,False,5.0,387,D3 (Soft),41,78.0,8.0,4.5,0.88
+P0234,47,Female,Never,False,5.6,280,D4 (Very soft),36,56.0,13.0,4.5,0.94
+P0235,80,Female,Never,True,6.2,382,D3 (Soft),32,72.0,13.0,5.0,0.94
+P0236,62,Male,Never,False,5.1,638,D2 (Normal),55,62.0,11.5,4.0,1.15
+P0237,30,Female,Never,False,5.6,369,D3 (Soft),28,56.0,8.0,4.0,1.04
+P0238,57,Male,Former,False,5.6,503,D2 (Normal),30,69.0,11.5,4.5,0.29
+P0239,47,Male,Never,False,5.1,340,D3 (Soft),54,76.0,13.0,3.5,0.94
+P0240,65,Female,Never,False,5.1,563,D2 (Normal),26,61.0,11.5,4.0,0.76
+P0241,45,Male,Former,False,5.6,552,D2 (Normal),29,56.0,8.0,4.0,0.59
+P0242,53,Male,Former,False,5.5,727,D1 (Dense),33,67.0,11.5,3.5,1.08
+P0243,61,Male,Never,False,5.6,423,D3 (Soft),43,67.0,13.0,4.0,0.82
+P0244,65,Male,Never,False,5.5,550,D2 (Normal),37,72.0,11.5,4.5,0.74
+P0245,40,Male,Never,False,5.5,464,D3 (Soft),22,75.0,11.5,4.5,0.57
+P0246,50,Female,Former,False,5.0,644,D2 (Normal),29,67.0,10.0,3.5,0.49
+P0247,49,Male,Former,False,5.6,342,D3 (Soft),28,82.0,11.5,3.5,0.22
+P0248,47,Female,Never,False,5.6,561,D2 (Normal),34,69.0,8.0,4.0,0.54
+P0249,76,Female,Former,True,6.3,420,D3 (Soft),39,65.0,11.5,4.5,1.48
+P0250,59,Male,Former,False,5.4,440,D3 (Soft),39,55.0,8.0,3.5,1.06
+P0251,39,Male,Former,False,4.9,463,D3 (Soft),17,65.0,10.0,4.5,0.36
+P0252,66,Male,Current,False,5.6,487,D3 (Soft),45,65.0,10.0,3.5,1.59
+P0253,80,Female,Never,False,5.6,432,D3 (Soft),37,75.0,11.5,4.5,0.8
+P0254,67,Male,Never,True,7.0,482,D3 (Soft),48,71.0,8.0,4.0,0.97
+P0255,36,Female,Never,True,8.1,686,D2 (Normal),39,58.0,11.5,4.5,0.98
+P0256,49,Male,Never,False,5.3,597,D2 (Normal),46,69.0,11.5,4.0,1.0
+P0257,70,Female,Never,False,5.6,580,D2 (Normal),39,73.0,10.0,4.5,1.37
+P0258,46,Male,Current,False,5.1,381,D3 (Soft),48,80.0,8.0,4.0,1.42
+P0259,60,Male,Never,True,6.8,316,D3 (Soft),40,75.0,8.0,4.5,1.31
+P0260,64,Female,Never,False,5.3,593,D2 (Normal),34,74.0,13.0,4.5,0.52
+P0261,43,Female,Never,False,5.5,581,D2 (Normal),57,68.0,11.5,3.5,0.71
+P0262,54,Male,Current,False,5.3,670,D2 (Normal),43,71.0,10.0,4.5,1.07
+P0263,25,Female,Never,False,5.4,359,D3 (Soft),40,77.0,8.0,4.0,0.72
+P0264,42,Female,Never,False,5.6,415,D3 (Soft),22,57.0,11.5,3.5,0.43
+P0265,51,Female,Never,False,5.3,204,D4 (Very soft),22,65.0,13.0,4.0,0.77
+P0266,40,Female,Never,False,4.9,391,D3 (Soft),37,61.0,13.0,3.5,0.99
+P0267,74,Male,Current,True,7.4,599,D2 (Normal),36,71.0,11.5,4.5,1.29
+P0268,37,Male,Current,False,5.6,380,D3 (Soft),28,77.0,8.0,4.5,1.03
+P0269,49,Male,Never,False,5.0,546,D2 (Normal),36,63.0,8.0,3.5,0.84
+P0270,56,Female,Current,False,5.6,421,D3 (Soft),50,48.0,8.0,4.0,1.52
+P0271,72,Female,Former,False,5.2,498,D3 (Soft),41,64.0,10.0,4.5,0.96
+P0272,37,Male,Current,False,5.5,277,D4 (Very soft),23,75.0,8.0,5.0,0.63
+P0273,68,Male,Never,False,5.5,462,D3 (Soft),33,72.0,10.0,4.0,1.22
+P0274,55,Female,Never,False,5.3,150,D4 (Very soft),26,71.0,10.0,5.0,0.87
+P0275,43,Female,Never,False,5.2,421,D3 (Soft),31,65.0,13.0,4.0,0.68
+P0276,60,Female,Former,False,5.2,205,D4 (Very soft),30,57.0,11.5,4.0,0.95
+P0277,57,Male,Never,False,5.1,630,D2 (Normal),30,72.0,13.0,4.5,1.28
+P0278,47,Male,Never,False,5.2,566,D2 (Normal),22,61.0,11.5,4.0,0.29
+P0279,55,Male,Never,False,5.4,520,D2 (Normal),33,85.0,8.0,4.0,0.4
+P0280,50,Female,Former,True,6.7,678,D2 (Normal),29,72.0,11.5,4.0,0.76
+P0281,56,Male,Never,False,5.6,307,D3 (Soft),15,63.0,10.0,4.5,0.83
+P0282,62,Female,Former,False,5.6,712,D1 (Dense),55,63.0,11.5,4.5,1.32
+P0283,74,Male,Current,False,5.2,589,D2 (Normal),45,67.0,10.0,4.0,1.75
+P0284,40,Female,Never,False,5.5,414,D3 (Soft),31,66.0,13.0,4.0,0.84
+P0285,80,Female,Former,True,8.0,620,D2 (Normal),35,76.0,10.0,4.0,0.78
+P0286,31,Female,Never,False,5.5,284,D4 (Very soft),23,69.0,10.0,4.0,0.56
+P0287,53,Male,Current,False,5.4,326,D3 (Soft),51,62.0,13.0,4.0,1.63
+P0288,62,Male,Never,False,5.6,358,D3 (Soft),53,83.0,8.0,4.5,1.52
+P0289,58,Male,Former,False,5.5,370,D3 (Soft),36,68.0,11.5,4.0,0.64
+P0290,47,Female,Former,False,5.0,291,D4 (Very soft),45,74.0,11.5,4.0,1.37
+P0291,52,Female,Current,False,5.6,633,D2 (Normal),36,63.0,13.0,3.5,1.11
+P0292,49,Female,Former,False,5.6,411,D3 (Soft),21,70.0,13.0,4.0,0.88
+P0293,47,Female,Never,False,5.2,502,D2 (Normal),30,70.0,13.0,5.0,0.59
+P0294,65,Female,Former,False,5.4,364,D3 (Soft),36,52.0,8.0,4.0,1.02
+P0295,59,Male,Current,False,5.6,176,D4 (Very soft),30,84.0,13.0,3.5,1.31
+P0296,46,Female,Former,False,5.3,490,D3 (Soft),32,78.0,11.5,4.0,0.82
+P0297,65,Male,Never,True,7.7,163,D4 (Very soft),34,64.0,11.5,4.0,1.61
+P0298,58,Male,Current,True,5.7,439,D3 (Soft),34,59.0,8.0,3.5,1.36
+P0299,64,Female,Former,False,5.2,244,D4 (Very soft),35,70.0,11.5,4.0,0.94
+P0300,62,Male,Former,False,5.0,748,D1 (Dense),24,68.0,13.0,4.0,0.14
+P0301,45,Male,Never,False,5.5,586,D2 (Normal),27,70.0,13.0,4.0,0.7
+P0302,48,Female,Former,False,5.6,465,D3 (Soft),22,69.0,10.0,4.0,0.75
+P0303,63,Male,Never,False,5.3,639,D2 (Normal),44,,8.0,4.0,0.53
+P0304,62,Female,Former,False,5.6,323,D3 (Soft),15,79.0,10.0,5.0,0.47
+P0305,54,Male,Never,True,6.6,531,D2 (Normal),46,72.0,13.0,4.0,0.83
+P0306,56,Male,Former,False,5.6,479,D3 (Soft),48,59.0,11.5,4.0,0.81
+P0307,70,Male,Current,False,5.2,489,D3 (Soft),31,78.0,10.0,4.0,0.81
+P0308,47,Male,Never,False,5.6,640,D2 (Normal),15,81.0,8.0,4.0,0.1
+P0309,61,Female,Current,False,5.6,559,D2 (Normal),31,85.0,10.0,4.5,0.73
+P0310,52,Male,Never,False,5.2,493,D3 (Soft),34,59.0,10.0,4.0,0.66
+P0311,52,Female,Current,False,,201,D4 (Very soft),24,69.0,13.0,4.5,0.75
+P0312,68,Female,Former,False,5.6,305,D3 (Soft),29,51.0,11.5,3.5,1.7
+P0313,64,Female,Former,False,5.3,431,D3 (Soft),50,,10.0,4.0,1.45
+P0314,64,Female,Former,True,7.6,464,D3 (Soft),41,63.0,11.5,4.5,1.14
+P0315,70,Female,Current,False,5.4,280,D4 (Very soft),25,83.0,8.0,4.0,1.1
+P0316,55,Male,Never,False,4.8,811,D1 (Dense),19,61.0,13.0,4.0,0.46
+P0317,63,Male,Never,False,5.4,677,D2 (Normal),31,54.0,10.0,4.0,1.06
+P0318,51,Male,Former,True,7.8,540,D2 (Normal),32,64.0,10.0,4.5,0.86
+P0319,58,Female,Former,False,5.3,460,D3 (Soft),39,52.0,10.0,3.5,1.43
+P0320,53,Male,Former,False,5.6,418,D3 (Soft),29,74.0,11.5,4.5,0.62
+P0321,56,Female,Former,True,7.5,307,D3 (Soft),40,51.0,11.5,3.5,1.06
+P0322,62,Female,Never,True,8.1,461,D3 (Soft),54,68.0,11.5,4.5,1.54
+P0323,45,Male,Former,False,5.3,488,D3 (Soft),43,51.0,10.0,4.0,1.47
+P0324,80,Female,Never,True,6.5,263,D4 (Very soft),34,65.0,10.0,4.5,1.84
+P0325,42,Male,Never,False,5.6,500,D3 (Soft),33,81.0,8.0,4.0,0.21
+P0326,40,Male,Never,False,5.5,426,D3 (Soft),31,70.0,11.5,5.0,0.83
+P0327,68,Female,Never,False,5.6,163,D4 (Very soft),46,61.0,8.0,3.5,1.24
+P0328,64,Female,Never,False,5.6,320,D3 (Soft),28,67.0,11.5,3.5,1.05
+P0329,62,Female,Never,False,5.3,387,D3 (Soft),35,68.0,13.0,4.0,0.52
+P0330,62,Male,Former,False,5.2,733,D1 (Dense),35,71.0,13.0,3.5,0.36
+P0331,54,Male,Never,False,5.1,533,D2 (Normal),29,57.0,10.0,3.5,0.58
+P0332,44,Female,Never,False,5.2,249,D4 (Very soft),21,72.0,10.0,5.0,0.67
+P0333,55,Female,Never,False,5.6,522,D2 (Normal),38,46.0,8.0,5.0,0.89
+P0334,46,Female,Never,False,5.6,217,D4 (Very soft),34,62.0,11.5,4.0,1.16
+P0335,66,Male,Never,False,5.0,612,D2 (Normal),40,64.0,13.0,5.0,1.11
+P0336,53,Female,Never,False,5.0,379,D3 (Soft),29,73.0,10.0,4.0,0.85
+P0337,45,Male,Former,False,5.5,435,D3 (Soft),47,68.0,10.0,4.0,1.45
+P0338,51,Male,Former,False,5.6,648,D2 (Normal),26,56.0,13.0,4.5,0.83
+P0339,59,Female,Former,True,6.6,256,D4 (Very soft),52,60.0,13.0,4.5,1.22
+P0340,48,Male,Never,False,5.3,240,D4 (Very soft),17,69.0,10.0,5.0,0.99
+P0341,45,Female,Never,False,5.4,362,D3 (Soft),39,67.0,11.5,4.0,0.74
+P0342,57,Male,Current,False,5.5,605,D2 (Normal),39,63.0,10.0,4.5,1.38
+P0343,57,Male,Never,False,5.4,222,D4 (Very soft),27,64.0,8.0,3.5,1.31
+P0344,48,Female,Never,False,,150,D4 (Very soft),39,73.0,13.0,3.5,1.12
+P0345,49,Female,Never,True,7.7,382,D3 (Soft),47,63.0,13.0,3.5,0.94
+P0346,57,Female,Never,False,5.1,532,D2 (Normal),15,67.0,11.5,5.0,0.23
+P0347,37,Female,Never,False,5.5,630,D2 (Normal),40,85.0,8.0,4.5,0.77
+P0348,38,Female,Never,False,5.6,380,D3 (Soft),15,56.0,13.0,4.5,0.57
+P0349,46,Female,Former,False,5.5,388,D3 (Soft),25,53.0,10.0,4.0,0.95
+P0350,52,Female,Never,False,5.3,623,D2 (Normal),51,74.0,10.0,4.0,1.0
+P0351,58,Male,Former,False,5.6,169,D4 (Very soft),29,62.0,11.5,3.5,1.3
+P0352,72,Female,Former,False,5.5,391,D3 (Soft),23,65.0,8.0,4.0,0.96
+P0353,65,Male,Former,False,5.5,478,D3 (Soft),33,61.0,11.5,4.0,0.93
+P0354,53,Female,Former,False,,517,D2 (Normal),55,65.0,11.5,4.5,1.09
+P0355,54,Female,Current,True,7.4,373,D3 (Soft),16,80.0,10.0,4.0,1.09
+P0356,42,Male,Never,False,5.1,455,D3 (Soft),24,74.0,10.0,3.5,0.63
+P0357,54,Female,Never,False,5.5,150,D4 (Very soft),49,74.0,10.0,3.5,1.11
+P0358,51,Female,Never,False,5.1,351,D3 (Soft),53,56.0,8.0,3.5,1.54
+P0359,58,Male,Former,False,5.6,518,D2 (Normal),33,58.0,11.5,4.0,0.92
+P0360,45,Female,Current,True,7.6,302,D3 (Soft),22,45.0,13.0,5.0,1.34
+P0361,61,Female,Never,False,5.3,458,D3 (Soft),55,61.0,8.0,4.5,1.02
+P0362,73,Male,Current,False,5.3,517,D2 (Normal),50,75.0,8.0,4.5,1.08
+P0363,53,Female,Never,True,7.5,398,D3 (Soft),41,72.0,11.5,4.0,1.06
+P0364,59,Male,Current,False,5.6,475,D3 (Soft),26,,13.0,4.0,1.35
+P0365,63,Female,Never,True,7.2,305,D3 (Soft),34,67.0,10.0,3.5,0.85
+P0366,50,Female,Never,False,5.4,419,D3 (Soft),33,62.0,10.0,4.5,0.89
+P0367,57,Female,Never,False,5.2,541,D2 (Normal),38,69.0,11.5,4.5,0.61
+P0368,55,Female,Never,False,5.0,473,D3 (Soft),49,74.0,10.0,3.5,0.85
+P0369,56,Female,Never,False,5.3,362,D3 (Soft),43,55.0,8.0,4.0,0.77
+P0370,45,Female,Never,True,7.3,483,D3 (Soft),24,70.0,11.5,4.0,0.58
+P0371,55,Male,Former,False,5.6,557,D2 (Normal),48,75.0,11.5,4.5,0.88
+P0372,60,Female,Never,False,5.5,150,D4 (Very soft),38,64.0,11.5,5.0,1.29
+P0373,72,Male,Never,False,5.0,623,D2 (Normal),41,73.0,11.5,4.0,0.83
+P0374,66,Female,Former,False,5.2,399,D3 (Soft),49,85.0,11.5,4.0,0.7
+P0375,80,Male,Former,False,5.6,513,D2 (Normal),23,67.0,10.0,3.5,1.08
+P0376,45,Male,Never,True,7.3,629,D2 (Normal),34,,10.0,3.5,0.71
+P0377,65,Male,Never,False,4.9,244,D4 (Very soft),29,62.0,8.0,3.5,1.05
+P0378,57,Female,Never,False,4.8,343,D3 (Soft),19,69.0,8.0,3.5,0.64
+P0379,81,Male,Never,False,5.6,406,D3 (Soft),38,71.0,11.5,4.5,0.84
+P0380,45,Female,Former,False,5.5,332,D3 (Soft),60,69.0,13.0,4.5,1.36
+P0381,44,Male,Never,False,5.1,710,D1 (Dense),16,59.0,13.0,3.5,0.48
+P0382,47,Male,Never,False,5.6,321,D3 (Soft),34,69.0,11.5,4.5,0.4
+P0383,29,Female,Former,False,4.6,366,D3 (Soft),41,79.0,10.0,3.5,0.66
+P0384,48,Female,Never,False,5.4,480,D3 (Soft),36,71.0,8.0,4.0,0.66
+P0385,45,Male,Former,False,5.5,269,D4 (Very soft),33,75.0,13.0,4.0,0.94
+P0386,56,Female,Never,False,5.6,390,D3 (Soft),22,66.0,11.5,4.0,0.98
+P0387,59,Female,Current,True,7.9,497,D3 (Soft),37,73.0,11.5,4.0,1.16
+P0388,77,Female,Never,False,5.4,400,D3 (Soft),27,70.0,11.5,4.0,0.68
+P0389,66,Male,Former,False,5.1,435,D3 (Soft),15,60.0,11.5,4.0,0.63
+P0390,48,Male,Former,False,5.5,370,D3 (Soft),46,70.0,13.0,5.0,0.87
+P0391,44,Female,Never,False,5.1,222,D4 (Very soft),44,60.0,8.0,3.5,1.07
+P0392,60,Male,Former,False,5.3,498,D3 (Soft),35,62.0,11.5,3.5,1.15
+P0393,39,Female,Current,False,5.1,713,D1 (Dense),37,69.0,13.0,3.5,0.61
+P0394,76,Female,Former,False,5.6,452,D3 (Soft),45,70.0,10.0,4.5,1.24
+P0395,69,Female,Former,False,5.6,483,D3 (Soft),37,58.0,11.5,3.5,0.67
+P0396,49,Female,Current,True,7.9,553,D2 (Normal),44,76.0,10.0,4.5,1.19
+P0397,34,Female,Never,False,5.4,259,D4 (Very soft),32,72.0,13.0,4.0,0.67
+P0398,71,Male,Never,False,5.0,705,D1 (Dense),48,62.0,8.0,4.0,1.36
+P0399,53,Female,Former,False,5.3,480,D3 (Soft),38,55.0,11.5,4.0,1.0
+P0400,69,Male,Never,False,5.4,694,D2 (Normal),36,66.0,10.0,3.5,0.16
+P0401,35,Female,Former,False,5.6,340,D3 (Soft),22,64.0,11.5,3.5,0.24
+P0402,47,Female,Current,False,5.1,722,D1 (Dense),37,68.0,10.0,4.0,0.93
+P0403,55,Female,Never,False,5.6,566,D2 (Normal),26,65.0,10.0,4.0,0.76
+P0404,55,Female,Never,False,5.6,532,D2 (Normal),28,51.0,10.0,4.0,0.93
+P0405,49,Female,Former,False,5.5,485,D3 (Soft),26,64.0,13.0,3.5,0.8
+P0406,62,Male,Never,False,5.6,412,D3 (Soft),24,65.0,10.0,5.0,1.03
+P0407,42,Male,Former,False,5.5,630,D2 (Normal),56,73.0,8.0,3.5,0.81
+P0408,53,Female,Never,False,5.5,471,D3 (Soft),48,62.0,11.5,4.5,1.26
+P0409,56,Male,Former,False,5.4,154,D4 (Very soft),54,81.0,11.5,4.5,0.86
+P0410,61,Male,Never,False,5.6,282,D4 (Very soft),22,52.0,13.0,4.0,0.74
+P0411,63,Male,Former,False,5.6,422,D3 (Soft),35,78.0,8.0,3.5,0.39
+P0412,41,Male,Never,False,5.2,496,D3 (Soft),22,66.0,11.5,3.5,0.45
+P0413,36,Male,Former,False,5.0,441,D3 (Soft),28,74.0,10.0,4.5,0.62
+P0414,70,Male,Never,False,5.3,632,D2 (Normal),25,68.0,10.0,4.5,0.61
+P0415,58,Male,Former,False,5.2,157,D4 (Very soft),47,77.0,11.5,4.5,1.24
+P0416,46,Male,Current,True,8.4,471,D3 (Soft),31,64.0,11.5,5.0,1.09
+P0417,73,Female,Never,True,7.5,177,D4 (Very soft),45,59.0,11.5,4.5,1.42
+P0418,56,Male,Never,True,7.4,563,D2 (Normal),41,79.0,10.0,3.5,0.4
+P0419,69,Male,Never,False,5.4,435,D3 (Soft),58,67.0,10.0,4.0,1.58
+P0420,55,Female,Former,False,5.4,512,D2 (Normal),20,69.0,10.0,4.5,0.54
+P0421,79,Male,Former,True,8.0,320,D3 (Soft),47,77.0,13.0,4.0,1.32
+P0422,76,Female,Never,True,7.1,641,D2 (Normal),46,59.0,10.0,3.5,1.52
+P0423,52,Female,Never,False,5.2,606,D2 (Normal),25,72.0,10.0,4.5,0.15
+P0424,66,Male,Never,False,5.5,537,D2 (Normal),45,63.0,10.0,4.0,0.71
+P0425,62,Male,Former,False,5.6,430,D3 (Soft),38,66.0,11.5,5.0,0.75
+P0426,71,Female,Never,True,7.9,536,D2 (Normal),32,68.0,10.0,4.5,1.0
+P0427,43,Female,Current,False,4.8,343,D3 (Soft),26,55.0,13.0,3.5,1.3
+P0428,63,Female,Never,False,5.6,578,D2 (Normal),27,61.0,10.0,5.0,0.89
+P0429,67,Female,Former,False,5.2,697,D2 (Normal),55,78.0,13.0,4.0,1.59
+P0430,33,Male,Never,False,5.0,610,D2 (Normal),35,,8.0,4.0,0.1
+P0431,40,Female,Never,False,5.2,340,D3 (Soft),42,67.0,11.5,4.0,1.08
+P0432,30,Male,Former,False,5.3,504,D2 (Normal),27,69.0,13.0,3.5,0.46
+P0433,51,Female,Former,False,5.2,256,D4 (Very soft),27,65.0,10.0,4.0,0.8
+P0434,63,Female,Current,True,7.7,535,D2 (Normal),45,78.0,13.0,3.5,1.25
+P0435,73,Female,Never,False,5.6,517,D2 (Normal),21,66.0,10.0,4.0,0.42
+P0436,55,Female,Never,False,5.6,169,D4 (Very soft),30,69.0,13.0,4.0,1.36
+P0437,74,Male,Former,False,5.6,275,D4 (Very soft),35,77.0,11.5,4.5,1.24
+P0438,38,Male,Former,False,5.1,407,D3 (Soft),36,61.0,10.0,4.5,0.95
+P0439,34,Male,Never,False,5.3,404,D3 (Soft),33,80.0,10.0,3.5,0.9
+P0440,54,Male,Never,False,5.4,268,D4 (Very soft),38,55.0,10.0,4.0,0.76
+P0441,59,Female,Never,True,7.8,508,D2 (Normal),41,81.0,8.0,4.0,0.62
+P0442,54,Male,Current,False,5.6,487,D3 (Soft),42,65.0,8.0,3.5,0.71
+P0443,30,Male,Never,True,7.0,420,D3 (Soft),25,,8.0,4.5,0.5
+P0444,53,Female,Never,False,5.4,336,D3 (Soft),32,52.0,10.0,4.5,1.07
+P0445,39,Female,Never,False,5.5,607,D2 (Normal),46,64.0,11.5,3.5,0.83
+P0446,63,Female,Never,False,5.6,698,D2 (Normal),43,59.0,8.0,4.0,0.91
+P0447,59,Female,Never,True,9.1,377,D3 (Soft),21,63.0,8.0,3.5,0.63
+P0448,43,Male,Never,False,5.6,358,D3 (Soft),38,66.0,11.5,4.5,1.08
+P0449,48,Male,Never,True,7.2,523,D2 (Normal),15,75.0,10.0,3.5,0.48
+P0450,42,Female,Former,True,7.0,396,D3 (Soft),35,,8.0,5.0,1.15
+P0451,54,Female,Never,False,5.5,429,D3 (Soft),53,70.0,10.0,4.5,0.58
+P0452,66,Male,Never,True,7.6,560,D2 (Normal),25,59.0,13.0,4.0,1.05
+P0453,43,Female,Current,False,5.6,163,D4 (Very soft),26,60.0,13.0,4.0,0.98
+P0454,61,Male,Former,False,5.6,647,D2 (Normal),42,82.0,10.0,5.0,0.61
+P0455,48,Male,Never,False,5.3,460,D3 (Soft),19,62.0,11.5,4.0,0.72
+P0456,45,Female,Never,True,7.8,388,D3 (Soft),28,81.0,11.5,3.5,0.81
+P0457,53,Female,Never,False,5.5,436,D3 (Soft),40,66.0,11.5,4.0,0.69
+P0458,42,Female,Former,False,5.5,444,D3 (Soft),28,68.0,11.5,4.5,0.74
+P0459,48,Male,Current,False,5.5,190,D4 (Very soft),32,76.0,11.5,4.5,0.8
+P0460,40,Female,Former,False,5.5,674,D2 (Normal),42,78.0,10.0,4.5,0.92
+P0461,78,Male,Former,False,5.6,456,D3 (Soft),39,67.0,8.0,4.5,1.03
+P0462,55,Male,Former,True,6.7,516,D2 (Normal),37,64.0,10.0,4.5,1.3
+P0463,46,Female,Never,False,5.5,592,D2 (Normal),31,67.0,13.0,5.0,0.46
+P0464,57,Female,Never,False,5.6,296,D4 (Very soft),38,70.0,11.5,3.5,0.82
+P0465,53,Female,Former,True,6.2,521,D2 (Normal),33,75.0,13.0,4.0,0.63
+P0466,52,Female,Current,False,5.5,409,D3 (Soft),39,68.0,13.0,4.5,1.45
+P0467,62,Female,Never,True,7.3,577,D2 (Normal),30,72.0,10.0,4.5,0.53
+P0468,64,Female,Former,False,5.3,150,D4 (Very soft),33,81.0,11.5,4.5,1.16
+P0469,48,Male,Never,False,5.1,435,D3 (Soft),25,71.0,11.5,3.5,0.5
+P0470,48,Male,Never,False,5.2,359,D3 (Soft),34,70.0,13.0,4.5,0.3
+P0471,51,Male,Never,True,7.0,514,D2 (Normal),26,55.0,13.0,4.5,0.71
+P0472,27,Male,Never,False,,520,D2 (Normal),23,46.0,11.5,3.5,0.39
+P0473,36,Female,Former,False,5.3,343,D3 (Soft),37,71.0,10.0,4.0,0.89
+P0474,71,Female,Never,False,5.0,343,D3 (Soft),37,67.0,11.5,3.5,0.71
+P0475,74,Male,Former,False,5.4,433,D3 (Soft),42,63.0,8.0,4.0,1.41
+P0476,52,Male,Former,False,5.6,315,D3 (Soft),30,69.0,11.5,3.5,0.88
+P0477,61,Female,Current,False,5.1,576,D2 (Normal),39,67.0,13.0,4.0,1.11
+P0478,58,Male,Never,True,8.5,394,D3 (Soft),40,77.0,10.0,4.0,1.24
+P0479,85,Female,Never,False,5.6,150,D4 (Very soft),39,68.0,11.5,4.5,1.49
+P0480,68,Female,Never,False,5.6,393,D3 (Soft),26,62.0,10.0,4.5,0.84
+P0481,53,Female,Current,False,5.2,294,D4 (Very soft),36,75.0,10.0,4.5,1.0
+P0482,43,Female,Current,True,6.7,205,D4 (Very soft),38,66.0,10.0,4.0,1.01
+P0483,35,Female,Never,False,5.1,264,D4 (Very soft),35,72.0,11.5,3.5,0.63
+P0484,57,Male,Former,False,5.6,466,D3 (Soft),15,64.0,13.0,4.5,0.49
+P0485,45,Female,Never,False,5.5,649,D2 (Normal),36,62.0,13.0,3.5,0.7
+P0486,37,Female,Former,False,5.6,496,D3 (Soft),57,68.0,10.0,5.0,1.02
+P0487,47,Male,Never,False,5.0,359,D3 (Soft),31,68.0,13.0,4.5,0.94
+P0488,42,Female,Former,False,5.1,518,D2 (Normal),27,71.0,11.5,4.0,0.47
+P0489,75,Female,Never,False,5.6,381,D3 (Soft),38,65.0,10.0,5.0,1.02
+P0490,65,Female,Former,False,5.1,345,D3 (Soft),38,53.0,8.0,3.5,1.55
+P0491,54,Female,Former,False,5.5,276,D4 (Very soft),46,64.0,10.0,4.0,1.33
+P0492,72,Female,Former,True,6.4,187,D4 (Very soft),22,74.0,13.0,4.5,1.01
+P0493,55,Female,Never,False,5.6,391,D3 (Soft),42,65.0,11.5,4.0,0.84
+P0494,44,Female,Never,False,5.0,473,D3 (Soft),40,66.0,11.5,5.0,0.67
+P0495,73,Female,Never,False,5.6,435,D3 (Soft),33,,10.0,3.5,0.58
+P0496,61,Female,Never,True,7.6,387,D3 (Soft),38,62.0,11.5,4.0,1.11
+P0497,42,Female,Never,False,5.2,308,D3 (Soft),45,55.0,8.0,4.0,1.34
+P0498,52,Female,Current,False,5.6,541,D2 (Normal),43,66.0,10.0,4.5,1.15
+P0499,44,Male,Former,False,5.5,252,D4 (Very soft),23,64.0,11.5,4.0,0.53
+P0500,38,Female,Never,False,5.2,566,D2 (Normal),43,60.0,8.0,4.0,1.28

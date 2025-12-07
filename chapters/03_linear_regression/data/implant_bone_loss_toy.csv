@@ -1,0 +1,51 @@
+patient_id,age,sex,smoking_status,diabetes,hba1c,hounsfield_units,bone_type,insertion_torque_ncm,isq_placement,implant_length_mm,implant_diameter_mm,marginal_bone_loss_mm
+P0001,60,Female,Current,False,5.1,298,D4 (Very soft),24,67.0,13.0,4.5,1.05
+P0002,53,Female,Never,False,5.6,155,D4 (Very soft),27,68.0,10.0,4.0,1.01
+P0003,62,Male,Former,False,4.9,502,D2 (Normal),20,68.0,13.0,4.5,0.73
+P0004,73,Female,Never,False,5.5,215,D4 (Very soft),29,66.0,10.0,4.0,1.33
+P0005,52,Female,Never,True,8.0,464,D3 (Soft),44,77.0,10.0,4.0,1.25
+P0006,52,Male,Former,False,5.4,410,D3 (Soft),40,67.0,13.0,3.5,1.25
+P0007,73,Male,Never,True,7.5,551,D2 (Normal),44,59.0,10.0,3.5,1.38
+P0008,64,Male,Former,True,7.2,404,D3 (Soft),40,64.0,11.5,5.0,0.86
+P0009,49,Male,Former,False,5.3,400,D3 (Soft),23,69.0,13.0,4.0,0.67
+P0010,61,Male,Never,True,7.5,559,D2 (Normal),31,77.0,8.0,4.5,0.94
+P0011,49,Male,Never,False,4.7,500,D3 (Soft),27,72.0,8.0,5.0,0.55
+P0012,49,Male,Never,False,5.6,497,D3 (Soft),48,61.0,11.5,4.0,1.14
+P0013,57,Male,Former,False,5.0,520,D2 (Normal),23,85.0,10.0,4.0,0.39
+P0014,32,Female,Current,True,7.4,219,D4 (Very soft),43,70.0,10.0,4.5,1.16
+P0015,34,Male,Former,True,7.4,563,D2 (Normal),43,78.0,8.0,5.0,0.77
+P0016,48,Female,Never,False,5.6,541,D2 (Normal),53,66.0,8.0,5.0,1.06
+P0017,42,Male,Former,False,4.9,297,D4 (Very soft),30,72.0,11.5,4.0,0.67
+P0018,58,Female,Never,False,5.5,413,D3 (Soft),42,74.0,8.0,4.5,0.82
+P0019,44,Male,Former,False,5.6,444,D3 (Soft),57,77.0,10.0,3.5,0.84
+P0020,38,Male,Never,False,5.0,429,D3 (Soft),28,76.0,11.5,5.0,0.81
+P0021,72,Female,Former,False,5.5,500,D3 (Soft),19,74.0,10.0,5.0,0.56
+P0022,52,Female,Never,False,5.2,664,D2 (Normal),16,65.0,8.0,3.5,0.73
+P0023,55,Female,Current,False,5.5,612,D2 (Normal),42,63.0,11.5,4.0,1.57
+P0024,37,Male,Never,True,6.7,253,D4 (Very soft),16,70.0,8.0,3.5,0.64
+P0025,48,Male,Former,False,5.2,543,D2 (Normal),31,75.0,11.5,4.0,0.39
+P0026,56,Female,Current,True,7.3,649,D2 (Normal),39,66.0,13.0,4.5,0.66
+P0027,41,Female,Never,False,5.6,508,D2 (Normal),36,76.0,10.0,4.0,0.23
+P0028,59,Female,Current,True,7.6,613,D2 (Normal),39,79.0,11.5,3.5,0.87
+P0029,47,Female,Former,True,7.7,751,D1 (Dense),37,60.0,10.0,4.0,1.34
+P0030,51,Male,Never,False,,603,D2 (Normal),47,61.0,10.0,5.0,0.95
+P0031,47,Female,Never,False,5.1,487,D3 (Soft),25,66.0,13.0,4.5,0.7
+P0032,77,Male,Former,True,7.0,606,D2 (Normal),28,70.0,13.0,4.0,0.3
+P0033,54,Male,Never,False,5.6,471,D3 (Soft),27,63.0,10.0,3.5,0.42
+P0034,42,Male,Former,False,,453,D3 (Soft),43,78.0,11.5,5.0,1.05
+P0035,64,Female,Never,False,5.3,397,D3 (Soft),44,71.0,13.0,4.5,1.06
+P0036,40,Male,Former,False,5.4,684,D2 (Normal),39,68.0,13.0,4.0,0.66
+P0037,57,Male,Never,False,5.0,327,D3 (Soft),46,56.0,11.5,3.5,1.36
+P0038,31,Female,Current,False,5.6,679,D2 (Normal),23,57.0,10.0,3.5,1.21
+P0039,39,Male,Current,False,5.6,524,D2 (Normal),51,70.0,10.0,3.5,1.17
+P0040,57,Female,Current,False,5.3,240,D4 (Very soft),50,50.0,13.0,4.0,1.79
+P0041,63,Male,Former,True,6.8,505,D2 (Normal),42,76.0,8.0,5.0,1.05
+P0042,57,Female,Never,False,5.5,150,D4 (Very soft),52,66.0,11.5,4.0,1.93
+P0043,53,Female,Former,True,7.5,543,D2 (Normal),18,85.0,10.0,4.5,0.1
+P0044,51,Male,Never,False,5.4,582,D2 (Normal),29,85.0,10.0,4.0,0.55
+P0045,37,Male,Never,False,5.6,361,D3 (Soft),27,66.0,10.0,4.5,0.66
+P0046,46,Male,Never,False,5.3,468,D3 (Soft),42,67.0,13.0,4.5,1.0
+P0047,49,Male,Never,False,5.3,743,D1 (Dense),24,75.0,8.0,3.5,0.12
+P0048,67,Female,Former,False,5.2,374,D3 (Soft),42,81.0,11.5,4.0,0.96
+P0049,59,Male,Former,False,5.6,291,D4 (Very soft),48,54.0,8.0,4.5,1.59
+P0050,33,Female,Never,False,5.3,672,D2 (Normal),41,53.0,10.0,3.5,1.56
