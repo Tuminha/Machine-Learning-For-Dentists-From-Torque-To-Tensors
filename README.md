@@ -1,7 +1,8 @@
 <div align="center">
 
-# 🦷 Machine Learning For Dentists
-## From Torque To Tensors
+<img src="images/ML%20for%20dentists%20banner.png" alt="Machine Learning For Dentists - From Torque to Tensors" width="100%" />
+
+<br />
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 ![Framework](https://img.shields.io/badge/ML-scikit--learn-orange.svg)
