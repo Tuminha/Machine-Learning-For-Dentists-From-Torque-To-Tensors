@@ -297,6 +297,22 @@ Before modeling, we check how our features relate to each other and to the targe
 
 These correlations align with clinical intuition — and give us confidence the model will find meaningful patterns.
 
+### Visualizing the Relationships
+
+Before training, let's see what these relationships look like. Each scatter plot shows one feature vs. bone loss, with a trend line:
+
+<div align="center">
+<img src="figures/05_feature_vs_target_scatter.png" alt="Feature vs Target Scatter Plots" width="100%" />
+</div>
+
+**What we see:**
+- **Insertion torque** (top-left): Clear positive slope — higher torque correlates with more bone loss
+- **Hounsfield units** (top-right): Negative slope — denser bone, less bone loss
+- **ISQ** (bottom-left): Negative slope — better stability, less bone loss
+- **Age** (bottom-right): Weak positive slope — age has a smaller effect
+
+These visual patterns confirm our correlation analysis and justify using linear regression.
+
 ### Feature Importance: What the Model Learned
 
 After training, we can visualize how much each feature contributes to the prediction:
@@ -330,6 +346,24 @@ How well does the model actually predict? We evaluate on held-out test data:
 - The model captures meaningful signal — predictions correlate with reality
 - But ~59% of variance remains unexplained (unmeasured factors, random variation)
 - Average error of ±0.23 mm is useful for counseling, not precise diagnosis
+
+### Checking Our Assumptions: Residual Analysis
+
+A good linear regression model should have **residuals** (prediction errors) that are:
+- Centered around zero
+- Roughly normally distributed
+- Showing no pattern when plotted against predictions
+
+<div align="center">
+<img src="figures/06_residual_analysis.png" alt="Residual Analysis" width="100%" />
+</div>
+
+**What the residuals tell us:**
+- **Top row**: Residual distributions are symmetric and centered at zero — ✓ good!
+- **Bottom row**: Residuals show random scatter around zero line — ✓ no systematic bias!
+- **No funnel shape**: Variance is roughly constant — ✓ homoscedasticity assumption met!
+
+This confirms our linear regression model is appropriate for this data.
 
 ---
 
