@@ -63,6 +63,12 @@ By the end of this book, you will:
 
 ## 📚 Chapters
 
+### Prologue
+
+| # | Chapter | Description |
+|---|---------|-------------|
+| 00 | [**The King, the Wizard, and the Price of Prediction**](chapters/00_prologue/) | *"Prediction is a tool, not a verdict"* |
+
 ### Part I - Why Prediction Matters
 
 | # | Chapter | Description |
