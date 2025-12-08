@@ -63,17 +63,11 @@ By the end of this book, you will:
 
 ## 📚 Chapters
 
-### Prologue
-
-| # | Chapter | Description |
-|---|---------|-------------|
-| 00 | [**The King, the Wizard, and the Price of Prediction**](chapters/00_prologue/) | *"Prediction is a tool, not a verdict"* |
-
 ### Part I - Why Prediction Matters
 
 | # | Chapter | Description |
 |---|---------|-------------|
-| 01 | [The Power of Prediction](chapters/01_power_of_prediction/) | Why prediction matters in dentistry |
+| 01 | [**The Power of Prediction**](chapters/01_power_of_prediction/) | *"Prediction is a tool, not a verdict"* — the philosophical foundation |
 | 02 | [Data for Clinical Questions](chapters/02_data_for_clinical_questions/) | Understanding your data |
 
 ### Part II - Core Algorithms
