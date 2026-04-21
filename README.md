@@ -28,7 +28,7 @@
 [![Email](https://img.shields.io/badge/Email-cisco%40periospot.com-blue?style=flat&logo=gmail)](mailto:cisco@periospot.com)
 [![Twitter](https://img.shields.io/badge/Twitter-cisco__research-1DA1F2?style=flat&logo=twitter)](https://twitter.com/cisco_research)
 
-*Periodontist learning machine learning • Building AI solutions for dentistry* 🦷
+*Periodontist and builder — writing the ML book I wish existed when I started* 🦷
 
 </div>
 
